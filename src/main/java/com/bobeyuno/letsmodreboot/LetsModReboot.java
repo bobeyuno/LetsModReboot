@@ -1,21 +1,22 @@
 package com.bobeyuno.letsmodreboot;
 
 import com.bobeyuno.letsmodreboot.proxy.IProxy;
+import com.bobeyuno.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = "LetsModReboot", name = "LetsModReboot", version = "1.7.2-1.0")
+@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class LetsModReboot
 {
     //Create an instance of the mod
-    @Mod.Instance("LetsModReboot")
+    @Mod.Instance(Reference.MOD_ID)
     public static  LetsModReboot instance;
 
     //load proxy stuff
-    @SidedProxy(clientSide = "com.bobeyuno.letsmodreboot.proxy.ClientProxy",serverSide = "com.bobeyuno.letsmodreboot.proxy.ServerProxy")
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS,serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
     //initlize the mod's items, blocks and networking
