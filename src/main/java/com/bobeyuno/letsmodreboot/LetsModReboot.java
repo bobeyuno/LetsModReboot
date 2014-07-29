@@ -1,5 +1,6 @@
 package com.bobeyuno.letsmodreboot;
 
+import com.bobeyuno.letsmodreboot.configuration.ConfigurationHandler;
 import com.bobeyuno.letsmodreboot.proxy.IProxy;
 import com.bobeyuno.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -19,11 +20,11 @@ public class LetsModReboot
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS,serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
-    //initlize the mod's items, blocks and networking
+    //initialize the mod's items, blocks and networking
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
     //initilize for recipies
     @Mod.EventHandler
