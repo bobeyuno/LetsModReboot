@@ -1,15 +1,17 @@
 package com.bobeyuno.letsmodreboot;
 
-import com.bobeyuno.letsmodreboot.configuration.ConfigurationHandler;
+import com.bobeyuno.letsmodreboot.handler.ConfigurationHandler;
 import com.bobeyuno.letsmodreboot.proxy.IProxy;
 import com.bobeyuno.letsmodreboot.reference.Reference;
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class LetsModReboot
 {
     //Create an instance of the mod
@@ -25,6 +27,8 @@ public class LetsModReboot
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        FMLLog.info("Pre Init Done!");
     }
     //initilize for recipies
     @Mod.EventHandler

@@ -7,53 +7,24 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
  R4wk, ZeuX, IngisKahn      
  MCP Data version : unknown
 ****************************
-:extractUserDev UP-TO-DATE
-:extractNatives
-:genSrgs SKIPPED
-:getAssetsIndex
-:getAssets
-:makeStartwarning: [options] bootstrap class path not set in conjunction with -source 1.6
-1 warning
-
-:downloadMcpTools UP-TO-DATE
-:downloadClient
-:downloadServer
-:mergeJars
-Adding cpw/mods/fml/relauncher/SideOnly.class
-Adding cpw/mods/fml/relauncher/Side.class
-:deobfuscateJar
-Applying SpecialSource...
-INFO: merging AccessMap net/minecraft/item/ItemBlock/field_150939_a from AccessChange(clear=0, set=0, vis=1) with AccessChange(clear=0, set=0, vis=1)
-Applying Exceptor...
-:decompile
-:processSources
-Injecting fml files
-Applying fml patches
-Applying forge patches
-:remapJar
-:extractMinecraftSrc
-:recompMinecraftwarning: [options] bootstrap class path not set in conjunction with -source 1.6
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-1 warning
-
-:repackMinecraft
-:setupDecompWorkspace
+:ideaModule
+Download http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar
+Download http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-javadoc.jar
+Download http://repo1.maven.org/maven2/com/google/guava/guava/16.0/guava-16.0-sources.jar
+Download http://repo1.maven.org/maven2/com/google/guava/guava/16.0/guava-16.0-javadoc.jar
+Download http://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1-sources.jar
+Download http://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1-javadoc.jar
+Download http://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar
+Download http://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9-javadoc.jar
+Download https://libraries.minecraft.net/com/mojang/authlib/1.5.13/authlib-1.5.13-sources.jar
+Download http://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1-sources.jar
+Download http://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1-javadoc.jar
+Download http://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1-sources.jar
+Download http://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1-javadoc.jar
+:ideaProject
+:ideaWorkspace
+:idea
 
 BUILD SUCCESSFUL
 
-Total time: 3 mins 15.042 secs
-g.eclipse.core:expressions using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.core:filesystem using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse:osgi using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.core:jobs using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.core:contenttype using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.equinox:app using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.core:runtime using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.update:configurator using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-
-BUILD SUCCESSFUL
-
-Total time: 17.127 secs
+Total time: 34.477 secs
