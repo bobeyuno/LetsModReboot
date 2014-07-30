@@ -1,0 +1,26 @@
+[11:45:22] [main/INFO]: Setting user: ForgeDevName
+[11:45:24] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:45:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot 
+[11:45:30] [Sound Library Loader/INFO]: Sound engine started
+[11:45:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:45:32] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:45:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot 
+[11:45:32] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:45:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:45:33] [Sound Library Loader/INFO]: Sound engine started
+[11:45:40] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:45:40] [Server thread/INFO]: Generating keypair
+[11:45:40] [Server thread/INFO]: Preparing start region for level 0
+[11:45:41] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:45:41] [Server thread/INFO]: ForgeDevName[local:E:0197d9bd] logged in with entity id 274 at (-773.1724923243839, 45.489355965454386, 1329.9769028867045)
+[11:45:41] [Server thread/INFO]: ForgeDevName joined the game
+[11:45:46] [Server thread/INFO]: Saving and pausing game...
+[11:45:46] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:45:46] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:45:46] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:45:46] [Server thread/INFO]: Stopping server
+[11:45:46] [Server thread/INFO]: Saving players
+[11:45:46] [Server thread/INFO]: Saving worlds
+[11:45:46] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:45:46] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:45:46] [Server thread/INFO]: Saving chunks for level 'New World'/The End

@@ -1,6 +1,7 @@
 package com.bobeyuno.letsmodreboot;
 
 import com.bobeyuno.letsmodreboot.handler.ConfigurationHandler;
+import com.bobeyuno.letsmodreboot.init.ModItems;
 import com.bobeyuno.letsmodreboot.proxy.IProxy;
 import com.bobeyuno.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -29,6 +30,8 @@ public class LetsModReboot
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         FMLLog.info("Pre Init Done!");
+
+        ModItems.init();
     }
     //initilize for recipies
     @Mod.EventHandler
