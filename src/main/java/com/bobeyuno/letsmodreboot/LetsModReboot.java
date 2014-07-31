@@ -1,6 +1,7 @@
 package com.bobeyuno.letsmodreboot;
 
 import com.bobeyuno.letsmodreboot.handler.ConfigurationHandler;
+import com.bobeyuno.letsmodreboot.init.ModBlocks;
 import com.bobeyuno.letsmodreboot.init.ModItems;
 import com.bobeyuno.letsmodreboot.proxy.IProxy;
 import com.bobeyuno.letsmodreboot.reference.Reference;
@@ -32,6 +33,8 @@ public class LetsModReboot
         FMLLog.info("Pre Init Done!");
 
         ModItems.init();
+
+        ModBlocks.init();
     }
     //initilize for recipies
     @Mod.EventHandler
