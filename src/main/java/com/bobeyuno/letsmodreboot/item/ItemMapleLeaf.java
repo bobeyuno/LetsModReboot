@@ -1,13 +1,14 @@
 package com.bobeyuno.letsmodreboot.item;
 
-/**
- * Created by Jack on 30/07/2014.
- */
+import com.bobeyuno.letsmodreboot.creativeTab.CreativeTabLMB;
+
+
 public class ItemMapleLeaf extends ItemLMB
 {
     public ItemMapleLeaf()
     {
         super();
         this.setUnlocalizedName("mapleLeaf");
+
     }
 }

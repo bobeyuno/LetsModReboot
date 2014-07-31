@@ -1,6 +1,7 @@
 package com.bobeyuno.letsmodreboot.block;
 
 
+import com.bobeyuno.letsmodreboot.creativeTab.CreativeTabLMB;
 import com.bobeyuno.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -14,6 +15,7 @@ public class BlockLMB extends Block
     public BlockLMB(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabLMB.LMB_TAB);
     }
 
     public BlockLMB()

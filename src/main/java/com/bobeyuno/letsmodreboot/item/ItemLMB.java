@@ -1,5 +1,6 @@
 package com.bobeyuno.letsmodreboot.item;
 
+import com.bobeyuno.letsmodreboot.creativeTab.CreativeTabLMB;
 import com.bobeyuno.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,7 +14,7 @@ public class ItemLMB extends Item
     public ItemLMB()
     {
         super();
-        //this.setCreativeTab(CreativeTabLMB.LMB_TAB);
+        this.setCreativeTab(CreativeTabLMB.LMB_TAB);
     }
 
     @Override
